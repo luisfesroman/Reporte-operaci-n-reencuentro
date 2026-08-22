@@ -105,6 +105,9 @@ a.doc .et{font-size:12px;color:var(--muted);display:block;margin-top:1px}
 <body>
 
 <svg style="display:none" aria-hidden="true">
+<symbol id="i-app" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="6" y="2.4" width="12" height="19.2" rx="2.6"/><path d="M10.4 19h3.2"/>
+  <path d="M12 7v6M9.2 10.2 12 13l2.8-2.8"/></symbol>
 <symbol id="i-deteccion" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
   <circle cx="10.6" cy="10.6" r="7"/><path d="M15.6 15.6L21 21"/>
   <path d="M7.6 10.6h6M10.6 7.6v6"/></symbol>
@@ -177,12 +180,21 @@ a.doc .et{font-size:12px;color:var(--muted);display:block;margin-top:1px}
         </span>
       </a>
 
-      <a class="card" href="guion-telefonico.pdf">
+      <a class="card" href="instalacion.html">
+        <span class="ico"><svg><use href="#i-app"/></svg></span>
+        <span>
+          <span class="tit">Instalar la app del cliente</span>
+          <span class="quien">EN LA VISITA</span>
+          <span class="desc">Aviso previo al cliente, pasos por iPhone o Android y qué hacer si se atora. Con el número de Línea GNP a la mano.</span>
+        </span>
+      </a>
+
+      <a class="card" href="guion-telefonico-rellenable.pdf">
         <span class="ico"><svg><use href="#i-guion"/></svg></span>
         <span>
           <span class="tit">Guión telefónico</span>
           <span class="quien">ANTES DE MARCAR</span>
-          <span class="desc">El método, las tres versiones de la llamada, las objeciones y cómo pedir los referidos.</span>
+          <span class="desc">El método, las tres versiones de la llamada, las objeciones y la bitácora de la semana. Se llena en el celular.</span>
         </span>
       </a>
 
@@ -203,10 +215,6 @@ a.doc .et{font-size:12px;color:var(--muted);display:block;margin-top:1px}
       <a class="doc" href="guion-telefonico.pdf">
         <svg><use href="#i-pdf"/></svg>
         <span>Guión telefónico<span class="et">Para imprimir y traer a la mano</span></span>
-      </a>
-      <a class="doc" href="guion-telefonico-rellenable.pdf">
-        <svg><use href="#i-pdf"/></svg>
-        <span>Guión telefónico<span class="et">Con bitácora para llenar</span></span>
       </a>
       <a class="doc" href="guion-telefonico.docx">
         <svg><use href="#i-word"/></svg>
